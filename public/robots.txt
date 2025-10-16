@@ -1,0 +1,35 @@
+# robots.txt for majdalhjaz.com
+# شركة مجد الحجاز الرقمية للخدمات العامة
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://majdalhjaz.com/sitemap.xml
+
+# Crawl-delay (optional - uncomment if needed)
+# Crawl-delay: 10
+
+# Disallow specific paths (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow Google Image Bot
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Allow all search engines to access CSS and JS
+User-agent: *
+Allow: /*.css$
+Allow: /*.js$
+
+# Block bad bots (optional)
+User-agent: BadBot
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Additional sitemap references (if you have multiple sitemaps)
+# Sitemap: https://majdalhjaz.com/sitemap-blog.xml
+# Sitemap: https://majdalhjaz.com/sitemap-products.xml
