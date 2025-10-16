@@ -4,14 +4,15 @@ import { Header } from '../components/header';
 
 export const metadata = {
     title: {
-        template: '%s | Netlify',
-        default: 'Netlify Starter'
-    }
+        template: '%s | شركة مجد الحجاز',
+        default: 'شركة مجد الحجاز للخدمات الرقمية العامة'
+    },
+    description: 'شركة مجد الحجاز للخدمات الرقمية العامة - نقدم حلول رقمية شاملة للأعمال',
 };
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="ar" dir="rtl">
             <head>
                 <link rel="icon" href="/favicon.svg" sizes="any" />
             </head>
